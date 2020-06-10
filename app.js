@@ -34,7 +34,7 @@ if(window.Worker){
 	myWorker.onmessage = function(e){
 		const re = e.data.result;
 		console.log('result: ', re);
-		alert('result is ', re);
+		alert('result iss ', re);
 	}
 
 	// to stop it
