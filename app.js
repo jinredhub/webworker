@@ -32,8 +32,9 @@ if(window.Worker){
 
 	// waits responce from the worker
 	myWorker.onmessage = function(e){
-		console.log('result: ', e.data.result);
-		alert('result is ', e.data.result);
+		const re = e.data.result;
+		console.log('result: ', re);
+		alert('result is ', re);
 	}
 
 	// to stop it
